@@ -102,6 +102,11 @@
             <Form>frmMain</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="Exemplos\Heranca.pas"/>
+        <DCCReference Include="Exemplos\ufrmHeranca.pas">
+            <Form>Form1</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <None Include="ModelSupport_LivroBoletoExemplosPrj\default.txaPackage"/>
         <None Include="ModelSupport_LivroBoletoExemplosPrj\default.txvpck"/>
         <None Include="ModelSupport_LivroBoletoExemplosPrj\Project1\default.txvpck"/>
