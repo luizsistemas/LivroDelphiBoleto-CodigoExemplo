@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TSocio =  class  // nome da classe
+  TSocio = class  // nome da classe
   private
     FRg: string;           	// É uma convenção utilizar ‘F’ no início
     FNascimento: string;	// de cada nome para definir os Fields.
@@ -21,21 +21,30 @@ type
     procedure ConfirmarCadastro;
     procedure ValidarSocio;
     procedure Alterar;
-
     property Nome: string read FNome write FNome;
     property Cpf: string read FCpf write FCpf;
     property Rg: string read FRg write FRg;
     property Nascimento: string read FNascimento write FNascimento;
     property Telefone: string read FTelefone write FTelefone;
     property Endereco: string read FEndereco write FEndereco;
+  end;
 
+  TListaFuncionarios = class
+  private
+    FLista: TStringList;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    function GetLista: string;
   end;
 
   TfrmMain = class(TForm)
     btnExecutar: TButton;
     Memo: TMemo;
-
-    procedure btnExecutarClick(Sender: TObject); private
+    Button1: TButton;
+    procedure btnExecutarClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+  private
     { Private declarations }
   public
     { Public declarations }
@@ -88,4 +97,37 @@ begin
   Socio.Free;
 end;
 
+{ TListaFuncionarios }
+
+constructor TListaFuncionarios.Create;
+begin
+  inherited Create;
+  FLista := TStringList.Create;
+  FLista.Add('Maria');
+  FLista.Add('Kácia');
+  FLista.Add('Lucas');
+end;
+
+destructor TListaFuncionarios.Destroy;
+begin
+  FLista.Free;
+  inherited;
+end;
+
+function TListaFuncionarios.GetLista: string;
+begin
+  Result := FLista.Text;
+end;
+
+procedure TfrmMain.Button1Click(Sender: TObject);
+var
+  Lista: TListaFuncionarios;
+begin
+  Lista := TListaFuncionarios.Create;
+  Memo.Clear;
+  Memo.Lines.Add(Lista.GetLista);
+  Lista.Free;
+end;
+
 end.
+

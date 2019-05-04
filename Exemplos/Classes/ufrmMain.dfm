@@ -31,7 +31,14 @@ object frmMain: TfrmMain
     Lines.Strings = (
       'Memo')
     TabOrder = 1
-    ExplicitTop = -4
-    ExplicitHeight = 264
+  end
+  object Button1: TButton
+    Left = 16
+    Top = 64
+    Width = 97
+    Height = 33
+    Caption = 'Lista Funcion'#225'rios'
+    TabOrder = 2
+    OnClick = Button1Click
   end
 end

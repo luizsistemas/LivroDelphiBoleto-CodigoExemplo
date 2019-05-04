@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/04 10:36:14.000.124,=D:\Projetos10\Unit1.pas</Transaction>
+    <Transaction>2019/05/04 10:36:41.000.175,D:\Projetos10\Unit1.dfm=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Poliformismo\Unit1.dfm</Transaction>
+    <Transaction>2019/05/04 10:36:41.000.175,D:\Projetos10\Unit1.pas=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Poliformismo\Unit1.pas</Transaction>
+    <Transaction>2019/05/04 10:36:47.000.270,D:\Projetos10\Project1.dproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Poliformismo\Poliformismo.dproj</Transaction>
+    <Transaction>2019/05/04 16:29:34.000.445,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Poliformismo\Poliformismo.dproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Poliformismo\Polimorfismo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
