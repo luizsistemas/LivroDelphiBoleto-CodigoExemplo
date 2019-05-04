@@ -32,4 +32,13 @@ object frmHeranca: TfrmHeranca
       'Memo')
     TabOrder = 1
   end
+  object btnMedico: TButton
+    Left = 16
+    Top = 40
+    Width = 75
+    Height = 25
+    Caption = 'M'#233'dico'
+    TabOrder = 2
+    OnClick = btnMedicoClick
+  end
 end
