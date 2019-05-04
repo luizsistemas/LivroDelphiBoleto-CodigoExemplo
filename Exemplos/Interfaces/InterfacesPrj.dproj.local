@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/04 14:33:23.204,=D:\Projetos10\Unit3.pas</Transaction>
+    <Transaction>2019/05/04 14:36:32.884,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\Unit3.dfm=D:\Projetos10\Unit3.dfm</Transaction>
+    <Transaction>2019/05/04 14:36:32.884,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\Unit3.pas=D:\Projetos10\Unit3.pas</Transaction>
+    <Transaction>2019/05/04 14:36:39.783,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\Project1.dproj=D:\Projetos10\Project1.dproj</Transaction>
+    <Transaction>2019/05/04 14:36:51.893,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\InterfacesPrj.dproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\Project1.dproj</Transaction>
+    <Transaction>2019/05/04 14:37:31.178,=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\Unit4.pas</Transaction>
+    <Transaction>2019/05/04 14:38:15.833,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\Carros.pas=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Interfaces\Unit4.pas</Transaction>
+  </Transactions>
+</BorlandProject>

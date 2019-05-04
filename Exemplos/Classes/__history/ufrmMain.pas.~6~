@@ -1,0 +1,92 @@
+unit ufrmMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TSocio =  class  // nome da classe
+  private
+    FRg: string;           	// É uma convenção utilizar ‘F’ no início
+    FNascimento: string;	// de cada nome para definir os Fields.
+    FCpf: string;			// Os fields tem relação direta com
+    FNome: string;		// encapsulamento - veremos mais a frente
+    FEndereco: string;
+    FTelefone: string;
+  public
+    constructor Create(ANome: string); reintroduce;
+    procedure Cadastrar;
+    procedure ConfirmarCadastro;
+    procedure ValidarSocio;
+    procedure Alterar;
+
+    property Nome: string read FNome write FNome;
+    property Cpf: string read FCpf write FCpf;
+    property Rg: string read FRg write FRg;
+    property Nascimento: string read FNascimento write FNascimento;
+    property Telefone: string read FTelefone write FTelefone;
+    property Endereco: string read FEndereco write FEndereco;
+
+  end;
+
+  TfrmMain = class(TForm)
+    btnExecutar: TButton;
+    Memo: TMemo;
+    Button1: TButton;
+
+    procedure btnExecutarClick(Sender: TObject); private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmMain: TfrmMain;
+
+implementation
+
+{$R *.dfm}
+
+{ TSocio }
+
+procedure TSocio.Alterar;
+begin
+  //altera sócio
+end;
+
+procedure TSocio.Cadastrar;
+begin
+  //cadastra sócio
+end;
+
+procedure TSocio.ConfirmarCadastro;
+begin
+  //confirma cadastro
+end;
+
+constructor TSocio.Create(ANome: string);
+begin
+  FNome := 'Mário';
+end;
+
+procedure TSocio.ValidarSocio;
+begin
+  //valida sócio
+end;
+
+procedure TfrmMain.btnExecutarClick(Sender: TObject);
+var
+  Socio: TSocio;
+begin
+  Socio := TSocio.Create('John Byrne');
+  Socio.Nome := 'Adam Smith';
+  Socio.Cpf := '0000000000000';
+  Socio.Telefone := '99 999 9999 9';
+  Memo.Clear;
+  Memo.Lines.Add('Nome: ' + Socio.Nome);
+  Socio.Free;
+end;
+
+end.

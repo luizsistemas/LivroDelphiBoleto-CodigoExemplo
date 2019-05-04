@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="60738ppy0pt_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:HerancaEx:Socio.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:HerancaEx:Socio.TSocio">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="240,80,131,313" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:HerancaEx:Socio.TSocio.FRg" />
+      <reference referencedUin="delphi:e_field:src:HerancaEx:Socio.TSocio.FNascimento" />
+      <reference referencedUin="delphi:e_field:src:HerancaEx:Socio.TSocio.FCpf" />
+      <reference referencedUin="delphi:e_field:src:HerancaEx:Socio.TSocio.FNome" />
+      <reference referencedUin="delphi:e_field:src:HerancaEx:Socio.TSocio.FEndereco" />
+      <reference referencedUin="delphi:e_field:src:HerancaEx:Socio.TSocio.FTelefone" />
+      <reference referencedUin="delphi:e_method:src:HerancaEx:Socio.TSocio.Cadastrar()" />
+      <reference referencedUin="delphi:e_method:src:HerancaEx:Socio.TSocio.ConfirmarCadastro()" />
+      <reference referencedUin="delphi:e_method:src:HerancaEx:Socio.TSocio.ValidarSocio()" />
+      <reference referencedUin="delphi:e_method:src:HerancaEx:Socio.TSocio.Alterar()" />
+      <reference referencedUin="delphi:e_property:src:HerancaEx:Socio.TSocio.Nome" />
+      <reference referencedUin="delphi:e_property:src:HerancaEx:Socio.TSocio.Cpf" />
+      <reference referencedUin="delphi:e_property:src:HerancaEx:Socio.TSocio.Rg" />
+      <reference referencedUin="delphi:e_property:src:HerancaEx:Socio.TSocio.Nascimento" />
+      <reference referencedUin="delphi:e_property:src:HerancaEx:Socio.TSocio.Telefone" />
+      <reference referencedUin="delphi:e_property:src:HerancaEx:Socio.TSocio.Endereco" />
+    </reference>
+  </view>
+</nodeSet>

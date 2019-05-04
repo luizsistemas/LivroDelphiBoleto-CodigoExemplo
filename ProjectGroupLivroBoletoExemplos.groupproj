@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C7DE4567-3941-41DD-B6DD-77CAC4D4B061}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="HerancaEx.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Exemplos\Poliformismo\Poliformismo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Exemplos\Abstrato\MetodoAbstrato.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Exemplos\Interfaces\InterfacesPrj.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Exemplos\Classes\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="HerancaEx">
+        <MSBuild Projects="HerancaEx.dproj"/>
+    </Target>
+    <Target Name="HerancaEx:Clean">
+        <MSBuild Projects="HerancaEx.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HerancaEx:Make">
+        <MSBuild Projects="HerancaEx.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Poliformismo">
+        <MSBuild Projects="Exemplos\Poliformismo\Poliformismo.dproj"/>
+    </Target>
+    <Target Name="Poliformismo:Clean">
+        <MSBuild Projects="Exemplos\Poliformismo\Poliformismo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Poliformismo:Make">
+        <MSBuild Projects="Exemplos\Poliformismo\Poliformismo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MetodoAbstrato">
+        <MSBuild Projects="Exemplos\Abstrato\MetodoAbstrato.dproj"/>
+    </Target>
+    <Target Name="MetodoAbstrato:Clean">
+        <MSBuild Projects="Exemplos\Abstrato\MetodoAbstrato.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MetodoAbstrato:Make">
+        <MSBuild Projects="Exemplos\Abstrato\MetodoAbstrato.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="InterfacesPrj">
+        <MSBuild Projects="Exemplos\Interfaces\InterfacesPrj.dproj"/>
+    </Target>
+    <Target Name="InterfacesPrj:Clean">
+        <MSBuild Projects="Exemplos\Interfaces\InterfacesPrj.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="InterfacesPrj:Make">
+        <MSBuild Projects="Exemplos\Interfaces\InterfacesPrj.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="Exemplos\Classes\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Exemplos\Classes\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Exemplos\Classes\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="HerancaEx;Poliformismo;MetodoAbstrato;InterfacesPrj;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="HerancaEx:Clean;Poliformismo:Clean;MetodoAbstrato:Clean;InterfacesPrj:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="HerancaEx:Make;Poliformismo:Make;MetodoAbstrato:Make;InterfacesPrj:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
