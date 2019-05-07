@@ -2,8 +2,7 @@ program Encapsulamento;
 
 uses
   Vcl.Forms,
-  Unit4 in 'Unit4.pas' {Form4},
-  Comissao in 'Comissao.pas';
+  Unit4 in 'Unit4.pas' {Form4};
 
 {$R *.res}
 
