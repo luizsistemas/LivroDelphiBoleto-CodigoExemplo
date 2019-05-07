@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/07 08:02:06.300,=D:\Projetos10\Unit4.pas</Transaction>
+    <Transaction>2019/05/07 08:02:27.342,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit4.dfm=D:\Projetos10\Unit4.dfm</Transaction>
+    <Transaction>2019/05/07 08:02:27.342,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit4.pas=D:\Projetos10\Unit4.pas</Transaction>
+    <Transaction>2019/05/07 08:02:33.517,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Encapsulamento.dproj=D:\Projetos10\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

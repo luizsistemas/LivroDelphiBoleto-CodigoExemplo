@@ -49,19 +49,19 @@
     <Transaction>2019/05/04 10:35:41.000.871,d:\projetos10\curso\boleto\codigoexemplo\modelsupport_livroboletoexemplosprj\livroboletoexemplosprj\default.txapackage=</Transaction>
     <Transaction>2019/05/04 10:35:41.000.946,d:\projetos10\curso\boleto\codigoexemplo\modelsupport_livroboletoexemplosprj\socio\default.txvpck=</Transaction>
     <Transaction>2019/05/04 10:35:41.000.851,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\default.txaPackage</Transaction>
-    <Transaction>2019/05/04 10:35:41.000.889,d:\projetos10\curso\boleto\codigoexemplo\modelsupport_livroboletoexemplosprj\livroboletoexemplosprj\default.txvpck=</Transaction>
     <Transaction>2019/05/04 10:35:41.000.869,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\default.txvpck</Transaction>
+    <Transaction>2019/05/04 10:35:41.000.889,d:\projetos10\curso\boleto\codigoexemplo\modelsupport_livroboletoexemplosprj\livroboletoexemplosprj\default.txvpck=</Transaction>
     <Transaction>2019/05/04 10:35:41.000.852,d:\projetos10\curso\boleto\codigoexemplo\modelsupport_livroboletoexemplosprj\default.txvpck=</Transaction>
     <Transaction>2019/05/04 10:35:41.000.909,d:\projetos10\curso\boleto\codigoexemplo\modelsupport_livroboletoexemplosprj\project1\default.txvpck=</Transaction>
     <Transaction>2019/05/04 10:35:41.000.928,d:\projetos10\curso\boleto\codigoexemplo\modelsupport_livroboletoexemplosprj\socio\default.txapackage=</Transaction>
     <Transaction>2019/05/04 10:35:41.000.984,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\ufrmMain\default.txaPackage</Transaction>
     <Transaction>2019/05/04 10:35:41.000.965,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\Socio\default.txvpck</Transaction>
     <Transaction>2019/05/04 10:35:42.000.066,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\HerancaEx\default.txvpck</Transaction>
-    <Transaction>2019/05/04 10:35:42.000.342,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\HerancaEx\default.txaPackage</Transaction>
+    <Transaction>2019/05/04 10:35:42.000.245,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\Heranca\default.txvpck</Transaction>
     <Transaction>2019/05/04 10:35:42.000.003,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\ufrmMain\default.txvpck</Transaction>
     <Transaction>2019/05/04 10:35:42.000.309,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\Heranca\default.txaPackage</Transaction>
     <Transaction>2019/05/04 10:35:42.000.325,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\ufrmHeranca\default.txaPackage</Transaction>
     <Transaction>2019/05/04 10:35:42.000.081,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\ufrmHeranca\default.txvpck</Transaction>
-    <Transaction>2019/05/04 10:35:42.000.245,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\Heranca\default.txvpck</Transaction>
+    <Transaction>2019/05/04 10:35:42.000.342,=D:\Projetos10\Curso\Boleto\CodigoExemplo\ModelSupport_HerancaEx\HerancaEx\default.txaPackage</Transaction>
   </Transactions>
 </BorlandProject>

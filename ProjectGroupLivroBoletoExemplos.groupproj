@@ -18,6 +18,9 @@
         <Projects Include="Exemplos\Interfaces\InterfacesPrj.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Exemplos\Encapsulamento\Encapsulamento.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -71,14 +74,23 @@
     <Target Name="InterfacesPrj:Make">
         <MSBuild Projects="Exemplos\Interfaces\InterfacesPrj.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Encapsulamento">
+        <MSBuild Projects="Exemplos\Encapsulamento\Encapsulamento.dproj"/>
+    </Target>
+    <Target Name="Encapsulamento:Clean">
+        <MSBuild Projects="Exemplos\Encapsulamento\Encapsulamento.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Encapsulamento:Make">
+        <MSBuild Projects="Exemplos\Encapsulamento\Encapsulamento.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="ClassesPrj;HerancaEx;Polimorfismo;MetodoAbstrato;InterfacesPrj"/>
+        <CallTarget Targets="ClassesPrj;HerancaEx;Polimorfismo;MetodoAbstrato;InterfacesPrj;Encapsulamento"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="ClassesPrj:Clean;HerancaEx:Clean;Polimorfismo:Clean;MetodoAbstrato:Clean;InterfacesPrj:Clean"/>
+        <CallTarget Targets="ClassesPrj:Clean;HerancaEx:Clean;Polimorfismo:Clean;MetodoAbstrato:Clean;InterfacesPrj:Clean;Encapsulamento:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="ClassesPrj:Make;HerancaEx:Make;Polimorfismo:Make;MetodoAbstrato:Make;InterfacesPrj:Make"/>
+        <CallTarget Targets="ClassesPrj:Make;HerancaEx:Make;Polimorfismo:Make;MetodoAbstrato:Make;InterfacesPrj:Make;Encapsulamento:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
