@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2019/05/04 10:34:19.000.495,D:\Projetos10\Curso\Boleto\CodigoExemplo\ProjectGroupLivroBoletoExemplos.groupproj=D:\Projetos10\ProjectGroup1.groupproj</Transaction>
+    <Transaction>2019/05/04 10:34:19.000.495,D:\Projetos10\ProjectGroup1.groupproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\ProjectGroupLivroBoletoExemplos.groupproj</Transaction>
   </Transactions>
 	<Default.Personality>
-		<Projects ActiveProject="D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Encapsulamento.dproj"/>
+		<Projects ActiveProject="F:\Cursos\Boleto\CodigoExemplo\Exemplos\Interfaces\InterfacesPrj.dproj"/>
 	</Default.Personality>
 </BorlandProject>

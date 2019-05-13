@@ -1,9 +1,9 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Polimorfismo'
-  ClientHeight = 136
-  ClientWidth = 378
+  Caption = 'Poliformismo'
+  ClientHeight = 297
+  ClientWidth = 515
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,15 +14,14 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Memo: TMemo
-    Left = 103
+    Left = 104
     Top = 0
-    Width = 275
-    Height = 136
+    Width = 411
+    Height = 297
     Align = alRight
     Lines.Strings = (
       'Memo')
     TabOrder = 0
-    ExplicitLeft = 240
   end
   object btnSoldado: TButton
     Left = 16

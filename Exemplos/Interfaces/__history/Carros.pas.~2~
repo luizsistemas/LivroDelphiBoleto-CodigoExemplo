@@ -3,7 +3,7 @@ unit Carros;
 interface
 
 type
-  ICarro  = interface
+  ICarro  = Interface
   ['{1AE8A8D6-B619-4782-8DFD-FA53518CA3D4}']
     procedure Acelerar;
     function GetVelocidade: Integer;

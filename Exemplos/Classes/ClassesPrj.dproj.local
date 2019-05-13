@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2019/05/04 15:18:33.000.106,=D:\Projetos10\Unit4.pas</Transaction>
-    <Transaction>2019/05/04 15:18:56.000.446,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\ufrmMain.pas=D:\Projetos10\Unit4.pas</Transaction>
-    <Transaction>2019/05/04 15:18:56.000.446,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\ufrmMain.dfm=D:\Projetos10\Unit4.dfm</Transaction>
-    <Transaction>2019/05/04 15:19:39.000.206,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\Project1.dproj=D:\Projetos10\Project1.dproj</Transaction>
-    <Transaction>2019/05/04 15:32:04.000.304,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\ClassesPrj.dproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\Project1.dproj</Transaction>
+    <Transaction>2019/05/04 15:18:56.000.446,D:\Projetos10\Unit4.dfm=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\ufrmMain.dfm</Transaction>
+    <Transaction>2019/05/04 15:18:56.000.446,D:\Projetos10\Unit4.pas=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\ufrmMain.pas</Transaction>
+    <Transaction>2019/05/04 15:19:39.000.206,D:\Projetos10\Project1.dproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\Project1.dproj</Transaction>
+    <Transaction>2019/05/04 15:32:04.000.304,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\Project1.dproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Classes\ClassesPrj.dproj</Transaction>
   </Transactions>
 </BorlandProject>

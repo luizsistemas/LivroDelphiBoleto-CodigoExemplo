@@ -1,6 +1,6 @@
 [Stats]
-EditorSecs=1
-DesignerSecs=1
+EditorSecs=15
+DesignerSecs=5
 InspectorSecs=1
 CompileSecs=1
 OtherSecs=1

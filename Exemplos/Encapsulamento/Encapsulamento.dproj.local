@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2019/05/07 08:02:06.300,=D:\Projetos10\Unit4.pas</Transaction>
-    <Transaction>2019/05/07 08:02:27.342,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit4.dfm=D:\Projetos10\Unit4.dfm</Transaction>
-    <Transaction>2019/05/07 08:02:27.342,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit4.pas=D:\Projetos10\Unit4.pas</Transaction>
-    <Transaction>2019/05/07 08:02:33.517,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Encapsulamento.dproj=D:\Projetos10\Project1.dproj</Transaction>
-    <Transaction>2019/05/07 08:03:46.737,=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit5.pas</Transaction>
-    <Transaction>2019/05/07 08:51:46.858,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Comissao.pas=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit5.pas</Transaction>
+	<Transactions>
+    <Transaction>2019/05/07 08:02:06.000.300,=D:\Projetos10\Unit4.pas</Transaction>
+    <Transaction>2019/05/07 08:02:27.000.342,D:\Projetos10\Unit4.dfm=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit4.dfm</Transaction>
+    <Transaction>2019/05/07 08:02:27.000.342,D:\Projetos10\Unit4.pas=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit4.pas</Transaction>
+    <Transaction>2019/05/07 08:02:33.000.517,D:\Projetos10\Project1.dproj=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Encapsulamento.dproj</Transaction>
+    <Transaction>2019/05/07 08:03:46.000.737,=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit5.pas</Transaction>
+    <Transaction>2019/05/07 08:51:46.000.858,D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Unit5.pas=D:\Projetos10\Curso\Boleto\CodigoExemplo\Exemplos\Encapsulamento\Comissao.pas</Transaction>
   </Transactions>
 </BorlandProject>
