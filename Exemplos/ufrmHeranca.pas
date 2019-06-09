@@ -37,7 +37,7 @@ begin
   try
     Soldado.Nome := 'André';  // Nome é uma propriedade da classe ancestral
     Soldado.Idade := 18;  // Idade também é da classe ancestral
-    Soldado.Patente := 'soldado';
+    Soldado.Patente := 'cabo';
 
     Memo.Clear;
     Memo.Lines.Add('Nome: ' + Soldado.Nome);

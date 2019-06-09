@@ -121,12 +121,15 @@ end;
 
 procedure TfrmMain.Button1Click(Sender: TObject);
 var
-  Lista: TListaFuncionarios;
+  Funcionarios: TListaFuncionarios;
 begin
-  Lista := TListaFuncionarios.Create;
-  Memo.Clear;
-  Memo.Lines.Add(Lista.GetLista);
-  Lista.Free;
+  Funcionarios := TListaFuncionarios.Create;
+  try
+    Memo.Clear;
+    Memo.Lines.Add(Funcionarios.GetLista);
+  finally
+    Funcionarios.Free;
+  end;
 end;
 
 end.
